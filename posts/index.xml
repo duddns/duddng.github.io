@@ -6,11 +6,30 @@
     <description>Recent content in Posts on DoNT - Do No Think!!!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Jul 2023 15:00:56 +0900</lastBuildDate><atom:link href="https://dont.kr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Apr 2022 14:02:00 +0900</lastBuildDate><atom:link href="https://dont.kr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Backup] Visual Studio Code Regex Replace</title>
+      <link>https://dont.kr/posts/backup-vs-code-regex-replace/</link>
+      <pubDate>Sat, 30 Apr 2022 14:02:00 +0900</pubDate>
+      
+      <guid>https://dont.kr/posts/backup-vs-code-regex-replace/</guid>
+      <description>, 10개 마다 줄 바꿈 하기 ((.+, ){10}) $1\n </description>
+    </item>
+    
+    <item>
+      <title>[Backup] gradle 의존성 갱신</title>
+      <link>https://dont.kr/posts/backup-gradle-refresh-dependencies/</link>
+      <pubDate>Thu, 28 Oct 2021 09:49:00 +0900</pubDate>
+      
+      <guid>https://dont.kr/posts/backup-gradle-refresh-dependencies/</guid>
+      <description>방법 1 $ rm -rf ~/.gradle/caches 프로젝트가 여러개 일 경우 모두 초기화
+방법 2 $ ./gradlew build --refresh-dependencies </description>
+    </item>
+    
     <item>
       <title>Hello World</title>
       <link>https://dont.kr/posts/hello-world/</link>
-      <pubDate>Mon, 10 Jul 2023 15:00:56 +0900</pubDate>
+      <pubDate>Sat, 10 Nov 1979 00:00:00 +0900</pubDate>
       
       <guid>https://dont.kr/posts/hello-world/</guid>
       <description>Hello World Hello World</description>
