@@ -45,6 +45,15 @@
     </item>
     
     <item>
+      <title>[Backup] brew - mac package manage</title>
+      <link>https://dont.kr/posts/2019-04-08-brew-mac-package-manage/</link>
+      <pubDate>Mon, 08 Apr 2019 13:36:00 +0900</pubDate>
+      
+      <guid>https://dont.kr/posts/2019-04-08-brew-mac-package-manage/</guid>
+      <description>brew $ brew install {PACKAGE_NAME} $ brew update $ brew upgrade </description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://dont.kr/posts/1979-11-10-hello-world/</link>
       <pubDate>Sat, 10 Nov 1979 00:00:00 +0900</pubDate>
