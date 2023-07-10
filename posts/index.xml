@@ -67,6 +67,16 @@
     </item>
     
     <item>
+      <title>[Backup] MySQL 대용량 sql import 시 진행상황 확인하기</title>
+      <link>https://dont.kr/posts/2018-11-29-mysql-%EB%8C%80%EC%9A%A9%EB%9F%89-sql-import-%EC%8B%9C-%EC%A7%84%ED%96%89%EC%83%81%ED%99%A9-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Thu, 29 Nov 2018 15:53:00 +0900</pubDate>
+      
+      <guid>https://dont.kr/posts/2018-11-29-mysql-%EB%8C%80%EC%9A%A9%EB%9F%89-sql-import-%EC%8B%9C-%EC%A7%84%ED%96%89%EC%83%81%ED%99%A9-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/</guid>
+      <description>Pipe Viewer https://www.ivarch.com/programs/pv.shtml
+$ pv dump.sql | mysql -uuser -ppassword database </description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://dont.kr/posts/1979-11-10-hello-world/</link>
       <pubDate>Sat, 10 Nov 1979 00:00:00 +0900</pubDate>
