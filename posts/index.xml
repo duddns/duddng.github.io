@@ -6,7 +6,16 @@
     <description>Recent content in Posts on DoNT - Do No Think!!!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Nov 1979 00:00:00 +0900</lastBuildDate><atom:link href="https://dont.kr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Apr 2022 14:02:00 +0900</lastBuildDate><atom:link href="https://dont.kr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Backup] Visual Studio Code Regex Replace</title>
+      <link>https://dont.kr/posts/backup-vs-code-regex-replace/</link>
+      <pubDate>Sat, 30 Apr 2022 14:02:00 +0900</pubDate>
+      
+      <guid>https://dont.kr/posts/backup-vs-code-regex-replace/</guid>
+      <description>, 10개 마다 줄 바꿈 하기 ((.+, ){10}) $1\n </description>
+    </item>
+    
     <item>
       <title>Hello World</title>
       <link>https://dont.kr/posts/hello-world/</link>

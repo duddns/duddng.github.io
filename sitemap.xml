@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dont.kr/</loc>
-    <lastmod>1979-11-10T00:00:00+09:00</lastmod>
+    <loc>https://dont.kr/posts/backup-vs-code-regex-replace/</loc>
+    <lastmod>2022-04-30T14:02:00+09:00</lastmod>
   </url><url>
-    <loc>https://dont.kr/posts/hello-world/</loc>
-    <lastmod>1979-11-10T00:00:00+09:00</lastmod>
+    <loc>https://dont.kr/</loc>
+    <lastmod>2022-04-30T14:02:00+09:00</lastmod>
   </url><url>
     <loc>https://dont.kr/posts/</loc>
+    <lastmod>2022-04-30T14:02:00+09:00</lastmod>
+  </url><url>
+    <loc>https://dont.kr/posts/hello-world/</loc>
     <lastmod>1979-11-10T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://dont.kr/categories/</loc>
