@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://dont.kr/</loc>
+    <lastmod>2023-07-10T15:00:56+09:00</lastmod>
+  </url><url>
+    <loc>https://dont.kr/posts/hello-world/</loc>
+    <lastmod>2023-07-10T15:00:56+09:00</lastmod>
+  </url><url>
+    <loc>https://dont.kr/posts/</loc>
+    <lastmod>2023-07-10T15:00:56+09:00</lastmod>
+  </url><url>
+    <loc>https://dont.kr/categories/</loc>
+  </url><url>
+    <loc>https://dont.kr/tags/</loc>
+  </url>
+</urlset>
