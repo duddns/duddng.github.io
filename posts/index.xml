@@ -6,7 +6,18 @@
     <description>Recent content in Posts on DoNT - Do No Think!!!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Apr 2022 14:02:00 +0900</lastBuildDate><atom:link href="https://dont.kr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2023 19:10:00 +0900</lastBuildDate><atom:link href="https://dont.kr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[re] Hello World</title>
+      <link>https://dont.kr/posts/2023-07-10-hello-world-by-hugo/</link>
+      <pubDate>Mon, 10 Jul 2023 19:10:00 +0900</pubDate>
+      
+      <guid>https://dont.kr/posts/2023-07-10-hello-world-by-hugo/</guid>
+      <description>[re] Hello World [re] Hello World by GitHub Pages &amp;amp; Hugo
+install golang $ brew install golang install Hugoo https://gohugo.io/installation/macos/
+$ brew install hugo github 저장소 생성 duddns.github.io: GitHub Pages 저장소 duddns-hugo.github.io: Hogo 소스 저장소 Create a site $ hugo new site duddns-hugo.github.io $ cd duddns-hugo.github.io $ git init $ git submodule add -b master https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod $ git submodule add -b main https://@github.com/duddns/duddns.github.io.git public $ echo &amp;#34;theme = &amp;#39;PaperMod&amp;#39;&amp;#34; &amp;gt;&amp;gt; hugo.</description>
+    </item>
+    
     <item>
       <title>[Backup] Visual Studio Code Regex Replace</title>
       <link>https://dont.kr/posts/2022-04-30-backup-vs-code-regex-replace/</link>
