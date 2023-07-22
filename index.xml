@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 10 Jul 2023 19:10:00 +0900</lastBuildDate><atom:link href="https://dont.kr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[re] Hello World</title>
-      <link>https://dont.kr/posts/2023-07-10-hello-world-by-hugo/</link>
+      <link>https://dont.kr/posts/2023/2023-07-10-hello-world-by-hugo/</link>
       <pubDate>Mon, 10 Jul 2023 19:10:00 +0900</pubDate>
       
-      <guid>https://dont.kr/posts/2023-07-10-hello-world-by-hugo/</guid>
+      <guid>https://dont.kr/posts/2023/2023-07-10-hello-world-by-hugo/</guid>
       <description>[re] Hello World [re] Hello World by GitHub Pages &amp;amp; Hugo
 install golang $ brew install golang install Hugoo https://gohugo.io/installation/macos/
 $ brew install hugo github 저장소 생성 duddns.github.io: GitHub Pages 저장소 duddns-hugo.github.io: Hogo 소스 저장소 Create a site $ hugo new site duddns-hugo.github.io $ cd duddns-hugo.github.io $ git init $ git submodule add -b master https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod $ git submodule add -b main https://@github.com/duddns/duddns.github.io.git public $ echo &amp;#34;theme = &amp;#39;PaperMod&amp;#39;&amp;#34; &amp;gt;&amp;gt; hugo.</description>
@@ -20,56 +20,56 @@ $ brew install hugo github 저장소 생성 duddns.github.io: GitHub Pages 저�
     
     <item>
       <title>[Backup] Visual Studio Code Regex Replace</title>
-      <link>https://dont.kr/posts/2022-04-30-backup-vs-code-regex-replace/</link>
+      <link>https://dont.kr/posts/2022/2022-04-30-backup-vs-code-regex-replace/</link>
       <pubDate>Sat, 30 Apr 2022 14:02:00 +0900</pubDate>
       
-      <guid>https://dont.kr/posts/2022-04-30-backup-vs-code-regex-replace/</guid>
+      <guid>https://dont.kr/posts/2022/2022-04-30-backup-vs-code-regex-replace/</guid>
       <description>, 10개 마다 줄 바꿈 하기 ((.+, ){10}) $1\n </description>
     </item>
     
     <item>
       <title>[Backup] gradle 의존성 갱신</title>
-      <link>https://dont.kr/posts/2021-10-28-backup-gradle-refresh-dependencies/</link>
+      <link>https://dont.kr/posts/2021/2021-10-28-backup-gradle-refresh-dependencies/</link>
       <pubDate>Thu, 28 Oct 2021 09:49:00 +0900</pubDate>
       
-      <guid>https://dont.kr/posts/2021-10-28-backup-gradle-refresh-dependencies/</guid>
+      <guid>https://dont.kr/posts/2021/2021-10-28-backup-gradle-refresh-dependencies/</guid>
       <description>방법 1 $ rm -rf ~/.gradle/caches 프로젝트가 여러개 일 경우 모두 초기화
 방법 2 $ ./gradlew build --refresh-dependencies </description>
     </item>
     
     <item>
       <title>[Backup] aws ec2 인스턴스 생성후 하는 작업 v3</title>
-      <link>https://dont.kr/posts/2020-03-09-aws-ec2-initialize-v3/</link>
+      <link>https://dont.kr/posts/2020/2020-03-09-aws-ec2-initialize-v3/</link>
       <pubDate>Mon, 09 Mar 2020 16:24:00 +0900</pubDate>
       
-      <guid>https://dont.kr/posts/2020-03-09-aws-ec2-initialize-v3/</guid>
+      <guid>https://dont.kr/posts/2020/2020-03-09-aws-ec2-initialize-v3/</guid>
       <description>업데이트 $ sudo apt update ; sudo apt upgrade -y zsh $ sudo apt install zsh $ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh $ sudo chsh -s $(which zsh) ubuntu vim $ sudo add-apt-repository ppa:jonathonf/vim $ sudo apt update $ sudo apt install vim java (spring boot application 실행을 위해) $ wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add - $ sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/ $ sudo apt update $ sudo apt install adoptopenjdk-13-hotspot nginx (웹서버 및 SSL 적용을 위해) nginx 설치 $ echo &amp;#34;deb http://nginx.</description>
     </item>
     
     <item>
       <title>[Backup] ngrok - secure introspectable tunnels to localhost</title>
-      <link>https://dont.kr/posts/2019-07-09-ngrok/</link>
+      <link>https://dont.kr/posts/2019/2019-07-09-ngrok/</link>
       <pubDate>Tue, 09 Jul 2019 10:29:00 +0900</pubDate>
       
-      <guid>https://dont.kr/posts/2019-07-09-ngrok/</guid>
+      <guid>https://dont.kr/posts/2019/2019-07-09-ngrok/</guid>
       <description>ngrok https://ngrok.com/</description>
     </item>
     
     <item>
       <title>[Backup] brew - mac package manage</title>
-      <link>https://dont.kr/posts/2019-04-08-brew-mac-package-manage/</link>
+      <link>https://dont.kr/posts/2019/2019-04-08-brew-mac-package-manage/</link>
       <pubDate>Mon, 08 Apr 2019 13:36:00 +0900</pubDate>
       
-      <guid>https://dont.kr/posts/2019-04-08-brew-mac-package-manage/</guid>
+      <guid>https://dont.kr/posts/2019/2019-04-08-brew-mac-package-manage/</guid>
       <description>brew $ brew install {PACKAGE_NAME} $ brew update $ brew upgrade </description>
     </item>
     
     <item>
       <title>[Backup] 로그로 남기면 좋은 것들</title>
-      <link>https://dont.kr/posts/2019-01-28-%EB%A1%9C%EA%B7%B8%EB%A1%9C-%EB%82%A8%EA%B8%B0%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EA%B2%83%EB%93%A4/</link>
+      <link>https://dont.kr/posts/2019/2019-01-28-%EB%A1%9C%EA%B7%B8%EB%A1%9C-%EB%82%A8%EA%B8%B0%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EA%B2%83%EB%93%A4/</link>
       <pubDate>Mon, 28 Jan 2019 11:14:00 +0900</pubDate>
       
-      <guid>https://dont.kr/posts/2019-01-28-%EB%A1%9C%EA%B7%B8%EB%A1%9C-%EB%82%A8%EA%B8%B0%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EA%B2%83%EB%93%A4/</guid>
+      <guid>https://dont.kr/posts/2019/2019-01-28-%EB%A1%9C%EA%B7%B8%EB%A1%9C-%EB%82%A8%EA%B8%B0%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EA%B2%83%EB%93%A4/</guid>
       <description>1.6. Log Domains 로그를 남기는 이유는 몇가지로 분류될수 있습니다.
 1.6.1. 개발 로그(Development Log) 개발자가 디버깅 및 흐름 추적을 위해 기록하는 내용입니다.보통 debug, trace레벨로 기록합니다.
 1.6.2. 운영 로그(Maintenance Log) 운영에 관련된 로그입니다. 디스크가 꽉 찼거나, 인터페이싱 과정에서 타입아웃이 발생했거나 하는등 운영을 모니터링하기 위한 용도의 로그입니다. 보통 WARNING이나 ERROR로 기록됩니다.
@@ -79,20 +79,20 @@ $ brew install hugo github 저장소 생성 duddns.github.io: GitHub Pages 저�
     
     <item>
       <title>[Backup] MySQL 대용량 sql import 시 진행상황 확인하기</title>
-      <link>https://dont.kr/posts/2018-11-29-mysql-%EB%8C%80%EC%9A%A9%EB%9F%89-sql-import-%EC%8B%9C-%EC%A7%84%ED%96%89%EC%83%81%ED%99%A9-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/</link>
+      <link>https://dont.kr/posts/2018/2018-11-29-mysql-%EB%8C%80%EC%9A%A9%EB%9F%89-sql-import-%EC%8B%9C-%EC%A7%84%ED%96%89%EC%83%81%ED%99%A9-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/</link>
       <pubDate>Thu, 29 Nov 2018 15:53:00 +0900</pubDate>
       
-      <guid>https://dont.kr/posts/2018-11-29-mysql-%EB%8C%80%EC%9A%A9%EB%9F%89-sql-import-%EC%8B%9C-%EC%A7%84%ED%96%89%EC%83%81%ED%99%A9-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/</guid>
+      <guid>https://dont.kr/posts/2018/2018-11-29-mysql-%EB%8C%80%EC%9A%A9%EB%9F%89-sql-import-%EC%8B%9C-%EC%A7%84%ED%96%89%EC%83%81%ED%99%A9-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/</guid>
       <description>Pipe Viewer https://www.ivarch.com/programs/pv.shtml
 $ pv dump.sql | mysql -uuser -ppassword database </description>
     </item>
     
     <item>
       <title>[Backup] swagger-diff swagger 문서 내용 비교</title>
-      <link>https://dont.kr/posts/2018-11-29-swagger-diff-swagger-%EB%AC%B8%EC%84%9C-%EB%82%B4%EC%9A%A9-%EB%B9%84%EA%B5%90/</link>
+      <link>https://dont.kr/posts/2018/2018-11-29-swagger-diff-swagger-%EB%AC%B8%EC%84%9C-%EB%82%B4%EC%9A%A9-%EB%B9%84%EA%B5%90/</link>
       <pubDate>Thu, 29 Nov 2018 15:49:00 +0900</pubDate>
       
-      <guid>https://dont.kr/posts/2018-11-29-swagger-diff-swagger-%EB%AC%B8%EC%84%9C-%EB%82%B4%EC%9A%A9-%EB%B9%84%EA%B5%90/</guid>
+      <guid>https://dont.kr/posts/2018/2018-11-29-swagger-diff-swagger-%EB%AC%B8%EC%84%9C-%EB%82%B4%EC%9A%A9-%EB%B9%84%EA%B5%90/</guid>
       <description>swagger-diff http://deepoove.com/swagger-diff/
 이전 버전의 API 와 신규 버전의 API 를 비교하여 변경 내용을 html 파일로 출력
 $ java -jar swagger-diff.jar \ -old http://petstore.swagger.io/v2/swagger.json \ -new http://petstore.swagger.io/v2/swagger.json \ -v 2.0 \ -output-mode html &amp;gt; diff.html </description>
@@ -100,10 +100,10 @@ $ java -jar swagger-diff.jar \ -old http://petstore.swagger.io/v2/swagger.json \
     
     <item>
       <title>[Backup] Spirng Boot embedded tomcat 매우 늦게 실행되는 문제</title>
-      <link>https://dont.kr/posts/2018-08-08-spirng-boot-embedded-tomcat-%EB%A7%A4%EC%9A%B0-%EB%8A%A6%EA%B2%8C-%EC%8B%A4%ED%96%89%EB%90%98%EB%8A%94-%EB%AC%B8%EC%A0%9C/</link>
+      <link>https://dont.kr/posts/2018/2018-08-08-spirng-boot-embedded-tomcat-%EB%A7%A4%EC%9A%B0-%EB%8A%A6%EA%B2%8C-%EC%8B%A4%ED%96%89%EB%90%98%EB%8A%94-%EB%AC%B8%EC%A0%9C/</link>
       <pubDate>Wed, 08 Aug 2018 14:32:00 +0900</pubDate>
       
-      <guid>https://dont.kr/posts/2018-08-08-spirng-boot-embedded-tomcat-%EB%A7%A4%EC%9A%B0-%EB%8A%A6%EA%B2%8C-%EC%8B%A4%ED%96%89%EB%90%98%EB%8A%94-%EB%AC%B8%EC%A0%9C/</guid>
+      <guid>https://dont.kr/posts/2018/2018-08-08-spirng-boot-embedded-tomcat-%EB%A7%A4%EC%9A%B0-%EB%8A%A6%EA%B2%8C-%EC%8B%A4%ED%96%89%EB%90%98%EB%8A%94-%EB%AC%B8%EC%A0%9C/</guid>
       <description>운영 상태 nginx + spring boot application
 에러 증상 실제 spring boot application 실행 완료후 브라우저 접속하면 무한 대기상태
 에러 로그 SessionIdGeneratorBase : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [xxx,xxx] milliseconds 에러 해결 spring boot application 실행 옵션 추가
@@ -112,10 +112,10 @@ $ java -jar swagger-diff.jar \ -old http://petstore.swagger.io/v2/swagger.json \
     
     <item>
       <title>Hello World</title>
-      <link>https://dont.kr/posts/1979-11-10-hello-world/</link>
+      <link>https://dont.kr/posts/1979/1979-11-10-hello-world/</link>
       <pubDate>Sat, 10 Nov 1979 00:00:00 +0900</pubDate>
       
-      <guid>https://dont.kr/posts/1979-11-10-hello-world/</guid>
+      <guid>https://dont.kr/posts/1979/1979-11-10-hello-world/</guid>
       <description>Hello World Hello World</description>
     </item>
     
