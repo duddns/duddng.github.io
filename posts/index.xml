@@ -111,6 +111,15 @@ $ java -jar swagger-diff.jar \ -old http://petstore.swagger.io/v2/swagger.json \
     </item>
     
     <item>
+      <title>New Zealand Queenstown Coronet Peak</title>
+      <link>https://dont.kr/posts/2011/2011-08-19-newzealand-queenstown-coronet-peak/</link>
+      <pubDate>Fri, 19 Aug 2011 11:46:00 +0900</pubDate>
+      
+      <guid>https://dont.kr/posts/2011/2011-08-19-newzealand-queenstown-coronet-peak/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://dont.kr/posts/1979/1979-11-10-hello-world/</link>
       <pubDate>Sat, 10 Nov 1979 00:00:00 +0900</pubDate>
