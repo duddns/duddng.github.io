@@ -2,7 +2,7 @@
 <html lang="en" dir="auto">
 
 <head>
-	<meta name="generator" content="Hugo 0.115.2"><meta charset="utf-8">
+	<meta name="generator" content="Hugo 0.115.4"><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -127,6 +127,20 @@
 
 <article class="first-entry"> 
   <header class="entry-header">
+    <h2>Legacy 테스트 - Subclass and Override Method
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>레거시 코드 일를 테스트하기 위해 Subclass and Override Method 방법 적용 Subclass and Override Method 방법 참고 링크: https://youtu.be/Dct4bGKCmI8
+테스트하기 어려운 부분이 존재할 때 다루는 기법
+1. 레거시 코드에서 테스트 대상을 방해하는 부분을 메소드로 분리한다. 레거시 코드의 의존성을 분리하기 위해 메소드 단위로 코드를 분리 2. 분리한 메소드를 protected 로 변경한다 3. 테스트하고자 하는 클래스를 상속받아 테스트용 클래스를 만들고, 분리한 메소드를 재정의 한다. Stubbing 실제 동작과는 다르게 테스트 코드를 쉽게 만들기 위한 작업 4....</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-07-28 19:10:00 +0900 KST'>July 28, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to Legacy 테스트 - Subclass and Override Method" href="https://dont.kr/posts/2023/2023-07-28-legacy-testing-subclass-and-override-method/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>[re] Hello World
     </h2>
   </header>
@@ -241,21 +255,6 @@ $ java -jar swagger-diff.jar \ -old http://petstore.swagger.io/v2/swagger.json \
   </div>
   <footer class="entry-footer"><span title='2018-11-29 15:49:00 +0900 KST'>November 29, 2018</span></footer>
   <a class="entry-link" aria-label="post link to [Backup] swagger-diff swagger 문서 내용 비교" href="https://dont.kr/posts/2018/2018-11-29-swagger-diff-swagger-%EB%AC%B8%EC%84%9C-%EB%82%B4%EC%9A%A9-%EB%B9%84%EA%B5%90/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>[Backup] Spirng Boot embedded tomcat 매우 늦게 실행되는 문제
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>운영 상태 nginx &#43; spring boot application
-에러 증상 실제 spring boot application 실행 완료후 브라우저 접속하면 무한 대기상태
-에러 로그 SessionIdGeneratorBase : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [xxx,xxx] milliseconds 에러 해결 spring boot application 실행 옵션 추가
--Djava.security.egd=file:/dev/./urandom </p>
-  </div>
-  <footer class="entry-footer"><span title='2018-08-08 14:32:00 +0900 KST'>August 8, 2018</span></footer>
-  <a class="entry-link" aria-label="post link to [Backup] Spirng Boot embedded tomcat 매우 늦게 실행되는 문제" href="https://dont.kr/posts/2018/2018-08-08-spirng-boot-embedded-tomcat-%EB%A7%A4%EC%9A%B0-%EB%8A%A6%EA%B2%8C-%EC%8B%A4%ED%96%89%EB%90%98%EB%8A%94-%EB%AC%B8%EC%A0%9C/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
