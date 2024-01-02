@@ -6,8 +6,18 @@
     <description>Recent content in Posts on DoNT - Do Not Think!!!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jul 2023 19:10:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jan 2024 19:10:00 +0900</lastBuildDate>
     <atom:link href="https://dont.kr/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IntelliJ SonarLint 한글 이름 사용</title>
+      <link>https://dont.kr/posts/2024/2024-01-02-intellij-sonarlint-korean-naming/</link>
+      <pubDate>Tue, 02 Jan 2024 19:10:00 +0900</pubDate>
+      <guid>https://dont.kr/posts/2024/2024-01-02-intellij-sonarlint-korean-naming/</guid>
+      <description>IntelliJ SonarLint 플러그인 설치 https://plugins.jetbrains.com/plugin/7973-sonarlint
+SonarLint 설정 IntelliJ - Settings - Tools - SonarLint - Rules
+각 룰 마다 다음 정규표현식 설정
+Class names: ^[A-Z][a-zA-Z0-9]*|[A-Z가-힣][a-zA-Z0-9가-힣_]*$ Field names: ^[a-z][a-zA-Z0-9]*|[a-z가-힣][a-zA-Z0-9가-힣_]*$ Interface names: ^[A-Z][a-zA-Z0-9]*|[A-Z가-힣][a-zA-Z0-9가-힣_]*$ Local variable and method parameter names: ^[a-z][a-zA-Z0-9]*|[a-z가-힣][a-zA-Z0-9가-힣_]*$ Method names: ^[a-z][a-zA-Z0-9]*|[a-z가-힣][a-zA-Z0-9가-힣_]*$ Test class names: ^((Test|IT)[a-zA-Z0-9가-힣_]+|[A-Z][a-zA-Z0-9_]*|[A-Z가-힣][a-zA-Z0-9가-힣_]*(Test|Tests|TestCase|IT|ITCase))$ </description>
+    </item>
     <item>
       <title>Legacy 테스트 - Subclass and Override Method</title>
       <link>https://dont.kr/posts/2023/2023-07-28-legacy-testing-subclass-and-override-method/</link>

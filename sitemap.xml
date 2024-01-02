@@ -3,12 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dont.kr/</loc>
-    <lastmod>2023-07-28T19:10:00+09:00</lastmod>
+    <lastmod>2024-01-02T19:10:00+09:00</lastmod>
   </url><url>
-    <loc>https://dont.kr/posts/2023/2023-07-28-legacy-testing-subclass-and-override-method/</loc>
-    <lastmod>2023-07-28T19:10:00+09:00</lastmod>
+    <loc>https://dont.kr/posts/2024/2024-01-02-intellij-sonarlint-korean-naming/</loc>
+    <lastmod>2024-01-02T19:10:00+09:00</lastmod>
   </url><url>
     <loc>https://dont.kr/posts/</loc>
+    <lastmod>2024-01-02T19:10:00+09:00</lastmod>
+  </url><url>
+    <loc>https://dont.kr/posts/2023/2023-07-28-legacy-testing-subclass-and-override-method/</loc>
     <lastmod>2023-07-28T19:10:00+09:00</lastmod>
   </url><url>
     <loc>https://dont.kr/posts/2023/2023-07-10-hello-world-by-hugo/</loc>

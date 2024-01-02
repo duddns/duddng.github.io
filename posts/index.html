@@ -133,6 +133,21 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">IntelliJ SonarLint 한글 이름 사용
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>IntelliJ SonarLint 플러그인 설치 https://plugins.jetbrains.com/plugin/7973-sonarlint
+SonarLint 설정 IntelliJ - Settings - Tools - SonarLint - Rules
+각 룰 마다 다음 정규표현식 설정
+Class names: ^[A-Z][a-zA-Z0-9]*|[A-Z가-힣][a-zA-Z0-9가-힣_]*$ Field names: ^[a-z][a-zA-Z0-9]*|[a-z가-힣][a-zA-Z0-9가-힣_]*$ Interface names: ^[A-Z][a-zA-Z0-9]*|[A-Z가-힣][a-zA-Z0-9가-힣_]*$ Local variable and method parameter names: ^[a-z][a-zA-Z0-9]*|[a-z가-힣][a-zA-Z0-9가-힣_]*$ Method names: ^[a-z][a-zA-Z0-9]*|[a-z가-힣][a-zA-Z0-9가-힣_]*$ Test class names: ^((Test|IT)[a-zA-Z0-9가-힣_]&#43;|[A-Z][a-zA-Z0-9_]*|[A-Z가-힣][a-zA-Z0-9가-힣_]*(Test|Tests|TestCase|IT|ITCase))$ </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-01-02 19:10:00 +0900 KST'>January 2, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to IntelliJ SonarLint 한글 이름 사용" href="https://dont.kr/posts/2024/2024-01-02-intellij-sonarlint-korean-naming/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Legacy 테스트 - Subclass and Override Method
     </h2>
   </header>
@@ -247,20 +262,6 @@ $ pv dump.sql | mysql -uuser -ppassword database </p>
   </div>
   <footer class="entry-footer"><span title='2018-11-29 15:53:00 +0900 KST'>November 29, 2018</span></footer>
   <a class="entry-link" aria-label="post link to [Backup] MySQL 대용량 sql import 시 진행상황 확인하기" href="https://dont.kr/posts/2018/2018-11-29-mysql-%EB%8C%80%EC%9A%A9%EB%9F%89-sql-import-%EC%8B%9C-%EC%A7%84%ED%96%89%EC%83%81%ED%99%A9-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">[Backup] swagger-diff swagger 문서 내용 비교
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>swagger-diff http://deepoove.com/swagger-diff/
-이전 버전의 API 와 신규 버전의 API 를 비교하여 변경 내용을 html 파일로 출력
-$ java -jar swagger-diff.jar \ -old http://petstore.swagger.io/v2/swagger.json \ -new http://petstore.swagger.io/v2/swagger.json \ -v 2.0 \ -output-mode html &gt; diff.html </p>
-  </div>
-  <footer class="entry-footer"><span title='2018-11-29 15:49:00 +0900 KST'>November 29, 2018</span></footer>
-  <a class="entry-link" aria-label="post link to [Backup] swagger-diff swagger 문서 내용 비교" href="https://dont.kr/posts/2018/2018-11-29-swagger-diff-swagger-%EB%AC%B8%EC%84%9C-%EB%82%B4%EC%9A%A9-%EB%B9%84%EA%B5%90/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
