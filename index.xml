@@ -6,8 +6,15 @@
     <description>Recent content on DoNT - Do Not Think!!!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jan 2024 19:10:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jan 2024 19:10:00 +0900</lastBuildDate>
     <atom:link href="https://dont.kr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Synology NAS ssh 설정</title>
+      <link>https://dont.kr/posts/2024/2024-01-05-synology-nas-ssh/</link>
+      <pubDate>Fri, 05 Jan 2024 19:10:00 +0900</pubDate>
+      <guid>https://dont.kr/posts/2024/2024-01-05-synology-nas-ssh/</guid>
+      <description>Synology NAS ssh 설정 DSM 7.2.1 기준 제어판 - 터미널 및 SNMP - 터미널 SSH 서비스 활성화 포트 설정 공유기 포트포워딩 Synology NAS 에서 설정한 ssh 포트로 포트포워딩 설정 ssh 클라이언트에서 접속 $ ssh -p [포트] [아이디]@[시놀로지주소]</description>
+    </item>
     <item>
       <title>IntelliJ SonarLint 한글 이름 사용</title>
       <link>https://dont.kr/posts/2024/2024-01-02-intellij-sonarlint-korean-naming/</link>
