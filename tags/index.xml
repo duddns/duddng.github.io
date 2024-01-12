@@ -6,6 +6,14 @@
     <description>Recent content in Tags on DoNT - Do Not Think!!!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 12 Jan 2024 19:10:00 +0900</lastBuildDate>
     <atom:link href="https://dont.kr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo</title>
+      <link>https://dont.kr/tags/hugo/</link>
+      <pubDate>Fri, 12 Jan 2024 19:10:00 +0900</pubDate>
+      <guid>https://dont.kr/tags/hugo/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

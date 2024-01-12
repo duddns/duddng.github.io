@@ -6,8 +6,15 @@
     <description>Recent content on DoNT - Do Not Think!!!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jan 2024 19:10:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jan 2024 19:10:00 +0900</lastBuildDate>
     <atom:link href="https://dont.kr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 태그 설정</title>
+      <link>https://dont.kr/posts/2024/2024-01-12-hugo-tags/</link>
+      <pubDate>Fri, 12 Jan 2024 19:10:00 +0900</pubDate>
+      <guid>https://dont.kr/posts/2024/2024-01-12-hugo-tags/</guid>
+      <description>Hugo 기본 설정으로 tags 사용 PaperMod 테마 설정 hugo.yaml 파일 수정 menu: main: - identifier: tags name: tags url: /tags/ weight: 10 content 에 태그 추가 tags: - hugo 참고 링크 Hugo Taxonomies: https://gohugo.io/content-management/taxonomies/ PaperMod wiki: https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml </description>
+    </item>
     <item>
       <title>Synology NAS ssh 설정</title>
       <link>https://dont.kr/posts/2024/2024-01-05-synology-nas-ssh/</link>
