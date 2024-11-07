@@ -4,139 +4,288 @@
     <title>DoNT - Do Not Think!!!</title>
     <link>https://dont.kr/</link>
     <description>Recent content on DoNT - Do Not Think!!!</description>
-    <generator>Hugo -- 0.132.1</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jan 2024 19:10:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://dont.kr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IntelliJ debug variable json view</title>
+      <link>https://dont.kr/posts/2024/2024-11-07-intellij-debug-variable-json-view/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0900</pubDate>
+      <guid>https://dont.kr/posts/2024/2024-11-07-intellij-debug-variable-json-view/</guid>
+      <description>&lt;h3 id=&#34;intellij-debug-variable-json-view&#34;&gt;IntelliJ debug variable json view&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;new com.fasterxml.jackson.databind.ObjectMapper()
+.registerModule(new com.fasterxml.jackson.datatype.jsr310.JavaTimeModule()) 
+.disable(com.fasterxml.jackson.databind.SerializationFeature.WRITE_DATES_AS_TIMESTAMPS) 
+.writerWithDefaultPrettyPrinter() 
+.writeValueAsString();
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
     <item>
       <title>Hugo 태그 설정</title>
       <link>https://dont.kr/posts/2024/2024-01-12-hugo-tags/</link>
       <pubDate>Fri, 12 Jan 2024 19:10:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2024/2024-01-12-hugo-tags/</guid>
-      <description>Hugo 기본 설정으로 tags 사용 PaperMod 테마 설정 hugo.yaml 파일 수정 menu: main: - identifier: tags name: tags url: /tags/ weight: 10 content 에 태그 추가 tags: - hugo 참고 링크 Hugo Taxonomies: https://gohugo.io/content-management/taxonomies/ PaperMod wiki: https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml </description>
+      <description>&lt;h3 id=&#34;hugo-기본-설정으로-tags-사용&#34;&gt;Hugo 기본 설정으로 tags 사용&lt;/h3&gt;
+&lt;h3 id=&#34;papermod-테마-설정&#34;&gt;PaperMod 테마 설정&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;hugo.yaml 파일 수정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 10
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;content-에-태그-추가&#34;&gt;content 에 태그 추가&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;tags: 
+- hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;참고-링크&#34;&gt;참고 링크&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo Taxonomies: &lt;a href=&#34;https://gohugo.io/content-management/taxonomies/&#34;&gt;https://gohugo.io/content-management/taxonomies/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PaperMod wiki: &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml&#34;&gt;https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Synology NAS ssh 설정</title>
       <link>https://dont.kr/posts/2024/2024-01-05-synology-nas-ssh/</link>
       <pubDate>Fri, 05 Jan 2024 19:10:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2024/2024-01-05-synology-nas-ssh/</guid>
-      <description>Synology NAS ssh 설정 DSM 7.2.1 기준 제어판 - 터미널 및 SNMP - 터미널 SSH 서비스 활성화 포트 설정 공유기 포트포워딩 Synology NAS 에서 설정한 ssh 포트로 포트포워딩 설정 ssh 클라이언트에서 접속 $ ssh -p [포트] [아이디]@[시놀로지주소]</description>
+      <description>&lt;h3 id=&#34;synology-nas-ssh-설정&#34;&gt;Synology NAS ssh 설정&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;DSM 7.2.1 기준&lt;/li&gt;
+&lt;li&gt;제어판 - 터미널 및 SNMP - 터미널
+&lt;ul&gt;
+&lt;li&gt;SSH 서비스 활성화&lt;/li&gt;
+&lt;li&gt;포트 설정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;공유기-포트포워딩&#34;&gt;공유기 포트포워딩&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Synology NAS 에서 설정한 ssh 포트로 포트포워딩 설정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ssh-클라이언트에서-접속&#34;&gt;ssh 클라이언트에서 접속&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;$ ssh -p [포트] [아이디]@[시놀로지주소]&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>IntelliJ SonarLint 한글 이름 사용</title>
       <link>https://dont.kr/posts/2024/2024-01-02-intellij-sonarlint-korean-naming/</link>
       <pubDate>Tue, 02 Jan 2024 19:10:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2024/2024-01-02-intellij-sonarlint-korean-naming/</guid>
-      <description>IntelliJ SonarLint 플러그인 설치 https://plugins.jetbrains.com/plugin/7973-sonarlint
-SonarLint 설정 IntelliJ - Settings - Tools - SonarLint - Rules
-각 룰 마다 다음 정규표현식 설정
-Class names: ^[A-Z][a-zA-Z0-9]*|[A-Z가-힣][a-zA-Z0-9가-힣_]*$ Field names: ^[a-z][a-zA-Z0-9]*|[a-z가-힣][a-zA-Z0-9가-힣_]*$ Interface names: ^[A-Z][a-zA-Z0-9]*|[A-Z가-힣][a-zA-Z0-9가-힣_]*$ Local variable and method parameter names: ^[a-z][a-zA-Z0-9]*|[a-z가-힣][a-zA-Z0-9가-힣_]*$ Method names: ^[a-z][a-zA-Z0-9]*|[a-z가-힣][a-zA-Z0-9가-힣_]*$ Test class names: ^((Test|IT)[a-zA-Z0-9가-힣_]+|[A-Z][a-zA-Z0-9_]*|[A-Z가-힣][a-zA-Z0-9가-힣_]*(Test|Tests|TestCase|IT|ITCase))$ </description>
+      <description>&lt;h3 id=&#34;intellij-sonarlint-플러그인-설치&#34;&gt;IntelliJ SonarLint 플러그인 설치&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://plugins.jetbrains.com/plugin/7973-sonarlint&#34;&gt;https://plugins.jetbrains.com/plugin/7973-sonarlint&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;sonarlint-설정&#34;&gt;SonarLint 설정&lt;/h3&gt;
+&lt;p&gt;IntelliJ - Settings - Tools - SonarLint - Rules&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;photo&#34; loading=&#34;lazy&#34; src=&#34;https://dont.kr/posts/2024/2024-01-02-intellij-sonarlint-korean-naming/images/1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;각 룰 마다 다음 정규표현식 설정&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Class names: ^[A-Z][a-zA-Z0-9]*|[A-Z가-힣][a-zA-Z0-9가-힣_]*$
+Field names: ^[a-z][a-zA-Z0-9]*|[a-z가-힣][a-zA-Z0-9가-힣_]*$
+Interface names: ^[A-Z][a-zA-Z0-9]*|[A-Z가-힣][a-zA-Z0-9가-힣_]*$
+Local variable and method parameter names: ^[a-z][a-zA-Z0-9]*|[a-z가-힣][a-zA-Z0-9가-힣_]*$
+Method names: ^[a-z][a-zA-Z0-9]*|[a-z가-힣][a-zA-Z0-9가-힣_]*$
+Test class names: ^((Test|IT)[a-zA-Z0-9가-힣_]+|[A-Z][a-zA-Z0-9_]*|[A-Z가-힣][a-zA-Z0-9가-힣_]*(Test|Tests|TestCase|IT|ITCase))$
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Legacy 테스트 - Subclass and Override Method</title>
       <link>https://dont.kr/posts/2023/2023-07-28-legacy-testing-subclass-and-override-method/</link>
       <pubDate>Fri, 28 Jul 2023 19:10:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2023/2023-07-28-legacy-testing-subclass-and-override-method/</guid>
-      <description>레거시 코드 일를 테스트하기 위해 Subclass and Override Method 방법 적용 Subclass and Override Method 방법 참고 링크: https://youtu.be/Dct4bGKCmI8
-테스트하기 어려운 부분이 존재할 때 다루는 기법
-1. 레거시 코드에서 테스트 대상을 방해하는 부분을 메소드로 분리한다. 레거시 코드의 의존성을 분리하기 위해 메소드 단위로 코드를 분리 2. 분리한 메소드를 protected 로 변경한다 3. 테스트하고자 하는 클래스를 상속받아 테스트용 클래스를 만들고, 분리한 메소드를 재정의 한다. Stubbing 실제 동작과는 다르게 테스트 코드를 쉽게 만들기 위한 작업 4.</description>
+      <description>&lt;h2 id=&#34;레거시-코드-일를-테스트하기-위해-subclass-and-override-method-방법-적용&#34;&gt;레거시 코드 일를 테스트하기 위해 Subclass and Override Method 방법 적용&lt;/h2&gt;
+&lt;h3 id=&#34;subclass-and-override-method-방법&#34;&gt;Subclass and Override Method 방법&lt;/h3&gt;
+&lt;p&gt;참고 링크: &lt;a href=&#34;https://youtu.be/Dct4bGKCmI8&#34;&gt;https://youtu.be/Dct4bGKCmI8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;테스트하기 어려운 부분이 존재할 때 다루는 기법&lt;/p&gt;
+&lt;h4 id=&#34;1-레거시-코드에서-테스트-대상을-방해하는-부분을-메소드로-분리한다&#34;&gt;1. 레거시 코드에서 테스트 대상을 방해하는 부분을 메소드로 분리한다.&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;레거시 코드의 의존성을 분리하기 위해 메소드 단위로 코드를 분리&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-분리한-메소드를-protected-로-변경한다&#34;&gt;2. 분리한 메소드를 protected 로 변경한다&lt;/h4&gt;
+&lt;h4 id=&#34;3-테스트하고자-하는-클래스를-상속받아-테스트용-클래스를-만들고-분리한-메소드를-재정의-한다&#34;&gt;3. 테스트하고자 하는 클래스를 상속받아 테스트용 클래스를 만들고, 분리한 메소드를 재정의 한다.&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Stubbing&lt;/li&gt;
+&lt;li&gt;실제 동작과는 다르게 테스트 코드를 쉽게 만들기 위한 작업&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;4-테스트용-클래스를-이용해서-테스트-대상을-테스트하는-코드를-작성한다&#34;&gt;4. 테스트용 클래스를 이용해서 테스트 대상을 테스트하는 코드를 작성한다.&lt;/h4&gt;</description>
     </item>
     <item>
       <title>[re] Hello World</title>
       <link>https://dont.kr/posts/2023/2023-07-10-hello-world-by-hugo/</link>
       <pubDate>Mon, 10 Jul 2023 19:10:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2023/2023-07-10-hello-world-by-hugo/</guid>
-      <description>[re] Hello World [re] Hello World by GitHub Pages &amp;amp; Hugo
-install golang $ brew install golang install Hugoo https://gohugo.io/installation/macos/
-$ brew install hugo github 저장소 생성 duddns.github.io: GitHub Pages 저장소 dontkr-hugo: Hogo 소스 저장소 Create a site $ hugo new site dontkr-hugo $ cd dontkr-hugo $ git init $ git submodule add -b master https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod $ git submodule add -b main https://@github.com/duddns/duddns.github.io.git public $ echo &amp;#34;theme = &amp;#39;PaperMod&amp;#39;&amp;#34; &amp;gt;&amp;gt; hugo.</description>
+      <description>&lt;h2 id=&#34;re-hello-world&#34;&gt;[re] Hello World&lt;/h2&gt;
+&lt;p&gt;[re] &lt;strong&gt;H&lt;/strong&gt;ello &lt;strong&gt;W&lt;/strong&gt;orld by &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;install-golang&#34;&gt;install golang&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ brew install golang
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;install-hugoo&#34;&gt;install Hugoo&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/installation/macos/&#34;&gt;https://gohugo.io/installation/macos/&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ brew install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;github-저장소-생성&#34;&gt;github 저장소 생성&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;duddns.github.io: GitHub Pages 저장소&lt;/li&gt;
+&lt;li&gt;dontkr-hugo: Hogo 소스 저장소&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;create-a-site&#34;&gt;Create a site&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ hugo new site dontkr-hugo
+$ cd dontkr-hugo
+$ git init
+$ git submodule add -b master https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+$ git submodule add -b main https://@github.com/duddns/duddns.github.io.git public
+$ echo &amp;#34;theme = &amp;#39;PaperMod&amp;#39;&amp;#34; &amp;gt;&amp;gt; hugo.toml
+$ hugo server
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;configure&#34;&gt;configure&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;baseURL = &amp;#39;https://dont.kr&amp;#39;
+languageCode = &amp;#39;en-us&amp;#39;
+title = &amp;#39;DoNT - Do Not Think!!!&amp;#39;
+theme = &amp;#39;PaperMod&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;publish&#34;&gt;publish&lt;/h3&gt;
+&lt;p&gt;GitHub Pages 저장소와 Hogo 소스 저장소 두 번 push 해야 함&lt;/p&gt;</description>
     </item>
     <item>
       <title>[Backup] Visual Studio Code Regex Replace</title>
       <link>https://dont.kr/posts/2022/2022-04-30-backup-vs-code-regex-replace/</link>
       <pubDate>Sat, 30 Apr 2022 14:02:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2022/2022-04-30-backup-vs-code-regex-replace/</guid>
-      <description>, 10개 마다 줄 바꿈 하기 ((.+, ){10}) $1\n </description>
+      <description>&lt;h3 id=&#34;-10개-마다-줄-바꿈-하기&#34;&gt;, 10개 마다 줄 바꿈 하기&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;((.+, ){10})
+$1\n
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>[Backup] gradle 의존성 갱신</title>
       <link>https://dont.kr/posts/2021/2021-10-28-backup-gradle-refresh-dependencies/</link>
       <pubDate>Thu, 28 Oct 2021 09:49:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2021/2021-10-28-backup-gradle-refresh-dependencies/</guid>
-      <description>방법 1 $ rm -rf ~/.gradle/caches 프로젝트가 여러개 일 경우 모두 초기화
-방법 2 $ ./gradlew build --refresh-dependencies </description>
+      <description>&lt;h3 id=&#34;방법-1&#34;&gt;방법 1&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ rm -rf ~/.gradle/caches
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;프로젝트가 여러개 일 경우 모두 초기화&lt;/p&gt;
+&lt;h3 id=&#34;방법-2&#34;&gt;방법 2&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ ./gradlew build --refresh-dependencies
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>[Backup] aws ec2 인스턴스 생성후 하는 작업 v3</title>
       <link>https://dont.kr/posts/2020/2020-03-09-aws-ec2-initialize-v3/</link>
       <pubDate>Mon, 09 Mar 2020 16:24:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2020/2020-03-09-aws-ec2-initialize-v3/</guid>
-      <description>업데이트 $ sudo apt update ; sudo apt upgrade -y zsh $ sudo apt install zsh $ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh $ sudo chsh -s $(which zsh) ubuntu vim $ sudo add-apt-repository ppa:jonathonf/vim $ sudo apt update $ sudo apt install vim java (spring boot application 실행을 위해) $ wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add - $ sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/ $ sudo apt update $ sudo apt install adoptopenjdk-13-hotspot nginx (웹서버 및 SSL 적용을 위해) nginx 설치 $ echo &amp;#34;deb http://nginx.</description>
+      <description>&lt;h3 id=&#34;업데이트&#34;&gt;업데이트&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo apt update ; sudo apt upgrade -y
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;zsh&#34;&gt;zsh&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo apt install zsh
+$ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+$ sudo chsh -s $(which zsh) ubuntu
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;vim&#34;&gt;vim&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo add-apt-repository ppa:jonathonf/vim
+$ sudo apt update
+$ sudo apt install vim
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;java-spring-boot-application-실행을-위해&#34;&gt;java (spring boot application 실행을 위해)&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
+$ sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
+$ sudo apt update
+$ sudo apt install adoptopenjdk-13-hotspot
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;nginx-웹서버-및-ssl-적용을-위해&#34;&gt;nginx (웹서버 및 SSL 적용을 위해)&lt;/h3&gt;
+&lt;h4 id=&#34;nginx-설치&#34;&gt;nginx 설치&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ echo &amp;#34;deb http://nginx.org/packages/mainline/ubuntu `lsb_release -cs` nginx&amp;#34; | sudo tee /etc/apt/sources.list.d/nginx.list
+$ curl -fsSL https://nginx.org/keys/nginx_signing.key | sudo apt-key add -
+$ sudo apt-key fingerprint ABF5BD827BD9BF62
+    pub rsa2048 2011-08-19 [SC] [expires: 2024-06-14] 573B FD6B 3D8F BC64 1079 A6AB ABF5 BD82 7BD9 BF62 uid [ unknown] nginx signing key &amp;lt;signing-key@nginx.com&amp;gt; 
+$ sudo apt-get update
+$ sudo apt-get install nginx
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;nginx-설정&#34;&gt;nginx 설정&lt;/h4&gt;
+&lt;h4 id=&#34;ssl-설정&#34;&gt;ssl 설정&lt;/h4&gt;
+&lt;h4 id=&#34;badbot-blocker&#34;&gt;badbot blocker&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mariusv/nginx-badbot-blocker/tree/master/VERSION_2&#34;&gt;https://github.com/mariusv/nginx-badbot-blocker/tree/master/VERSION_2&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>[Backup] ngrok - secure introspectable tunnels to localhost</title>
       <link>https://dont.kr/posts/2019/2019-07-09-ngrok/</link>
       <pubDate>Tue, 09 Jul 2019 10:29:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2019/2019-07-09-ngrok/</guid>
-      <description>ngrok https://ngrok.com/</description>
+      <description>&lt;h3 id=&#34;ngrok&#34;&gt;ngrok&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://ngrok.com/&#34;&gt;https://ngrok.com/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>[Backup] brew - mac package manage</title>
       <link>https://dont.kr/posts/2019/2019-04-08-brew-mac-package-manage/</link>
       <pubDate>Mon, 08 Apr 2019 13:36:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2019/2019-04-08-brew-mac-package-manage/</guid>
-      <description>brew $ brew install {PACKAGE_NAME} $ brew update $ brew upgrade </description>
+      <description>&lt;h3 id=&#34;brew&#34;&gt;brew&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ brew install {PACKAGE_NAME}
+$ brew update
+$ brew upgrade
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>[Backup] 로그로 남기면 좋은 것들</title>
       <link>https://dont.kr/posts/2019/2019-01-28-%EB%A1%9C%EA%B7%B8%EB%A1%9C-%EB%82%A8%EA%B8%B0%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EA%B2%83%EB%93%A4/</link>
       <pubDate>Mon, 28 Jan 2019 11:14:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2019/2019-01-28-%EB%A1%9C%EA%B7%B8%EB%A1%9C-%EB%82%A8%EA%B8%B0%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EA%B2%83%EB%93%A4/</guid>
-      <description>1.6. Log Domains 로그를 남기는 이유는 몇가지로 분류될수 있습니다.
-1.6.1. 개발 로그(Development Log) 개발자가 디버깅 및 흐름 추적을 위해 기록하는 내용입니다.보통 debug, trace레벨로 기록합니다.
-1.6.2. 운영 로그(Maintenance Log) 운영에 관련된 로그입니다. 디스크가 꽉 찼거나, 인터페이싱 과정에서 타입아웃이 발생했거나 하는등 운영을 모니터링하기 위한 용도의 로그입니다. 보통 WARNING이나 ERROR로 기록됩니다.
-1.6.3. 비지니스 로그(Business log) 비지니스적으로 의미가 있고 추후 추적하기 위한 로그입니다. 장바구니 상품추가, 로그인, 결제등이 대표적입니다. 보통 INFO로 기록합니다.
-1.6.4. 감사 로그(Audit log) 감사 로그는 보안 관련 시간순 기록, 기록 집합 및 / 또는 대상 및 기록 데이터 소스입니다.</description>
+      <description>&lt;h3 id=&#34;16-log-domains&#34;&gt;1.6. Log Domains&lt;/h3&gt;
+&lt;p&gt;로그를 남기는 이유는 몇가지로 분류될수 있습니다.&lt;/p&gt;
+&lt;h4 id=&#34;161-개발-로그development-log&#34;&gt;1.6.1. 개발 로그(Development Log)&lt;/h4&gt;
+&lt;p&gt;개발자가 디버깅 및 흐름 추적을 위해 기록하는 내용입니다.보통 debug, trace레벨로 기록합니다.&lt;/p&gt;
+&lt;h4 id=&#34;162-운영-로그maintenance-log&#34;&gt;1.6.2. 운영 로그(Maintenance Log)&lt;/h4&gt;
+&lt;p&gt;운영에 관련된 로그입니다. 디스크가 꽉 찼거나, 인터페이싱 과정에서 타입아웃이 발생했거나 하는등 운영을 모니터링하기 위한 용도의 로그입니다. 보통 WARNING이나 ERROR로 기록됩니다.&lt;/p&gt;
+&lt;h4 id=&#34;163-비지니스-로그business-log&#34;&gt;1.6.3. 비지니스 로그(Business log)&lt;/h4&gt;
+&lt;p&gt;비지니스적으로 의미가 있고 추후 추적하기 위한 로그입니다. 장바구니 상품추가, 로그인, 결제등이 대표적입니다. 보통 INFO로 기록합니다.&lt;/p&gt;
+&lt;h4 id=&#34;164-감사-로그audit-log&#34;&gt;1.6.4. 감사 로그(Audit log)&lt;/h4&gt;
+&lt;p&gt;감사 로그는 보안 관련 시간순 기록, 기록 집합 및 / 또는 대상 및 기록 데이터 소스입니다. 특정 작업, 절차 또는 기록에 언제든지 영향을 미친 활동 순서에 대한 증빙 자료를 제공하기 위해 기록됩니다. 보통 INFO이지만 운영자가 수정가능하지 않는 곳에 저장합니다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>[Backup] MySQL 대용량 sql import 시 진행상황 확인하기</title>
       <link>https://dont.kr/posts/2018/2018-11-29-mysql-%EB%8C%80%EC%9A%A9%EB%9F%89-sql-import-%EC%8B%9C-%EC%A7%84%ED%96%89%EC%83%81%ED%99%A9-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/</link>
       <pubDate>Thu, 29 Nov 2018 15:53:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2018/2018-11-29-mysql-%EB%8C%80%EC%9A%A9%EB%9F%89-sql-import-%EC%8B%9C-%EC%A7%84%ED%96%89%EC%83%81%ED%99%A9-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/</guid>
-      <description>Pipe Viewer https://www.ivarch.com/programs/pv.shtml
-$ pv dump.sql | mysql -uuser -ppassword database </description>
+      <description>&lt;h3 id=&#34;pipe-viewer&#34;&gt;Pipe Viewer&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ivarch.com/programs/pv.shtml&#34;&gt;https://www.ivarch.com/programs/pv.shtml&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ pv dump.sql | mysql -uuser -ppassword database
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>[Backup] swagger-diff swagger 문서 내용 비교</title>
       <link>https://dont.kr/posts/2018/2018-11-29-swagger-diff-swagger-%EB%AC%B8%EC%84%9C-%EB%82%B4%EC%9A%A9-%EB%B9%84%EA%B5%90/</link>
       <pubDate>Thu, 29 Nov 2018 15:49:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2018/2018-11-29-swagger-diff-swagger-%EB%AC%B8%EC%84%9C-%EB%82%B4%EC%9A%A9-%EB%B9%84%EA%B5%90/</guid>
-      <description>swagger-diff http://deepoove.com/swagger-diff/
-이전 버전의 API 와 신규 버전의 API 를 비교하여 변경 내용을 html 파일로 출력
-$ java -jar swagger-diff.jar \ -old http://petstore.swagger.io/v2/swagger.json \ -new http://petstore.swagger.io/v2/swagger.json \ -v 2.0 \ -output-mode html &amp;gt; diff.html </description>
+      <description>&lt;h3 id=&#34;swagger-diff&#34;&gt;swagger-diff&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://deepoove.com/swagger-diff/&#34;&gt;http://deepoove.com/swagger-diff/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;이전 버전의 API 와 신규 버전의 API 를 비교하여 변경 내용을 html 파일로 출력&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ java -jar swagger-diff.jar \
+-old http://petstore.swagger.io/v2/swagger.json \
+-new http://petstore.swagger.io/v2/swagger.json \
+-v 2.0 \
+-output-mode html &amp;gt; diff.html
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>[Backup] Spirng Boot embedded tomcat 매우 늦게 실행되는 문제</title>
       <link>https://dont.kr/posts/2018/2018-08-08-spirng-boot-embedded-tomcat-%EB%A7%A4%EC%9A%B0-%EB%8A%A6%EA%B2%8C-%EC%8B%A4%ED%96%89%EB%90%98%EB%8A%94-%EB%AC%B8%EC%A0%9C/</link>
       <pubDate>Wed, 08 Aug 2018 14:32:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2018/2018-08-08-spirng-boot-embedded-tomcat-%EB%A7%A4%EC%9A%B0-%EB%8A%A6%EA%B2%8C-%EC%8B%A4%ED%96%89%EB%90%98%EB%8A%94-%EB%AC%B8%EC%A0%9C/</guid>
-      <description>운영 상태 nginx + spring boot application
-에러 증상 실제 spring boot application 실행 완료후 브라우저 접속하면 무한 대기상태
-에러 로그 SessionIdGeneratorBase : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [xxx,xxx] milliseconds 에러 해결 spring boot application 실행 옵션 추가
--Djava.security.egd=file:/dev/./urandom </description>
+      <description>&lt;h3 id=&#34;운영-상태&#34;&gt;운영 상태&lt;/h3&gt;
+&lt;p&gt;nginx + spring boot application&lt;/p&gt;
+&lt;h3 id=&#34;에러-증상&#34;&gt;에러 증상&lt;/h3&gt;
+&lt;p&gt;실제 spring boot application 실행 완료후 브라우저 접속하면 무한 대기상태&lt;/p&gt;
+&lt;h3 id=&#34;에러-로그&#34;&gt;에러 로그&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;SessionIdGeneratorBase : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [xxx,xxx] milliseconds
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;에러-해결&#34;&gt;에러 해결&lt;/h3&gt;
+&lt;p&gt;spring boot application 실행 옵션 추가&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;-Djava.security.egd=file:/dev/./urandom
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>New Zealand Queenstown Coronet Peak</title>
       <link>https://dont.kr/posts/2011/2011-08-19-newzealand-queenstown-coronet-peak/</link>
       <pubDate>Fri, 19 Aug 2011 11:46:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2011/2011-08-19-newzealand-queenstown-coronet-peak/</guid>
-      <description> </description>
+      <description>&lt;p&gt;&lt;img alt=&#34;photo&#34; loading=&#34;lazy&#34; src=&#34;https://dont.kr/posts/2011/2011-08-19-newzealand-queenstown-coronet-peak/images/IMG_20110819_114616.JPG&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
       <link>https://dont.kr/posts/1979/1979-11-10-hello-world/</link>
       <pubDate>Sat, 10 Nov 1979 00:00:00 +0900</pubDate>
       <guid>https://dont.kr/posts/1979/1979-11-10-hello-world/</guid>
-      <description>Hello World Hello World</description>
+      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;H&lt;/strong&gt;ello &lt;strong&gt;W&lt;/strong&gt;orld&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

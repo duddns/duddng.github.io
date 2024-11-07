@@ -4,16 +4,47 @@
     <title>Hugo on DoNT - Do Not Think!!!</title>
     <link>https://dont.kr/tags/hugo/</link>
     <description>Recent content in Hugo on DoNT - Do Not Think!!!</description>
-    <generator>Hugo -- 0.132.1</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jan 2024 19:10:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://dont.kr/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IntelliJ debug variable json view</title>
+      <link>https://dont.kr/posts/2024/2024-11-07-intellij-debug-variable-json-view/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0900</pubDate>
+      <guid>https://dont.kr/posts/2024/2024-11-07-intellij-debug-variable-json-view/</guid>
+      <description>&lt;h3 id=&#34;intellij-debug-variable-json-view&#34;&gt;IntelliJ debug variable json view&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;new com.fasterxml.jackson.databind.ObjectMapper()
+.registerModule(new com.fasterxml.jackson.datatype.jsr310.JavaTimeModule()) 
+.disable(com.fasterxml.jackson.databind.SerializationFeature.WRITE_DATES_AS_TIMESTAMPS) 
+.writerWithDefaultPrettyPrinter() 
+.writeValueAsString();
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
     <item>
       <title>Hugo 태그 설정</title>
       <link>https://dont.kr/posts/2024/2024-01-12-hugo-tags/</link>
       <pubDate>Fri, 12 Jan 2024 19:10:00 +0900</pubDate>
       <guid>https://dont.kr/posts/2024/2024-01-12-hugo-tags/</guid>
-      <description>Hugo 기본 설정으로 tags 사용 PaperMod 테마 설정 hugo.yaml 파일 수정 menu: main: - identifier: tags name: tags url: /tags/ weight: 10 content 에 태그 추가 tags: - hugo 참고 링크 Hugo Taxonomies: https://gohugo.io/content-management/taxonomies/ PaperMod wiki: https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml </description>
+      <description>&lt;h3 id=&#34;hugo-기본-설정으로-tags-사용&#34;&gt;Hugo 기본 설정으로 tags 사용&lt;/h3&gt;
+&lt;h3 id=&#34;papermod-테마-설정&#34;&gt;PaperMod 테마 설정&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;hugo.yaml 파일 수정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 10
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;content-에-태그-추가&#34;&gt;content 에 태그 추가&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;tags: 
+- hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;참고-링크&#34;&gt;참고 링크&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo Taxonomies: &lt;a href=&#34;https://gohugo.io/content-management/taxonomies/&#34;&gt;https://gohugo.io/content-management/taxonomies/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PaperMod wiki: &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml&#34;&gt;https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
